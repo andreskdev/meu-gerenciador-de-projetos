@@ -1,20 +1,15 @@
-import './App.css';
+import Pessoa from './components/Pessoa.js';
+
 
 function App() {
 
-  const name = "André"
-  console.log(name)
-
-  function sum(a,b) {
-    return a + b
-  }
-
-  const url_image = "https://placehold.co/600x400"
-
   return (
-    <div className="App">
-    
-    </div>
+    <>
+      <Pessoa nome="André"
+        idade="34"
+        profissao="Desenvolvedor"
+        foto="https://placehold.co/600x400/EEE/31343C" />
+    </>
   );
 }
 
